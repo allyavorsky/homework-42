@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  width: 100%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -65,4 +69,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+nav {
+  gap: 32px;
+  display: flex;
+  width: 100%;
+  min-width: 100%;
+  justify-content: center;
+}
+
+nav a.active {
+  color: red;
 }
